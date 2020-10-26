@@ -681,3 +681,35 @@ main .material-icons { font-size: 18px; }
 .contact-info .address { margin: 20px 0px; }
 .contact-info .fax { margin: 20px 0px; }
 
+/* ========================================================================== 
+    5 footer
+   ========================================================================== */
+
+footer { background-color: #2e3e50; }
+
+footer p {
+  padding: 46px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer a {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+footer .material-icons { font-size: 50px; }
+
+footer div {
+  margin: 31px 50px 0px 0px;
+  display: inline-block;
+  float: right;
+}
+
+footer div a {
+  padding: 2px 5px;
+  display: inline-block;
+  background-color: #16a086;
+}
+
