@@ -53,3 +53,13 @@ flat.addEventListener("click", () => {
   graphic.className = "";
   flat.className = "activeCta";
 })
+
+//hamburger
+var hamburger = document.getElementById("hamburger");
+hamburger.addEventListener("click", cross);
+
+function cross() {
+  hamburger.classList.toggle("active");
+  var ham = document.getElementById("main-hamburger");
+  ham.classList.toggle("topmenu");
+}
