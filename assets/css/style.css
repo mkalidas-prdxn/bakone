@@ -274,3 +274,29 @@ body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
 }
+
+/* ==========================================================================
+   3. Header
+   ========================================================================== */
+
+header {
+  width: 100%;
+  padding: 35px 0px 30px;
+}
+
+header h1 { display: inline-block; }
+
+nav {
+  margin: 20px;
+  float: right;
+}
+
+nav li { display: inline-block; }
+
+nav a:hover {
+  background-color: #1cbc9b;
+  color: #fff;
+}
+
+.topnav { display: none; }
+
